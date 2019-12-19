@@ -15,7 +15,7 @@
 <body>
     <style>
         html {
-            max-width: 900px;
+
             font-family: 'Open Sans', sans-serif;
             line-height: 1.15;
             -ms-text-size-adjust: 100%;
@@ -23,6 +23,14 @@
             margin: 0 auto;
             box-sizing: border-box;
 
+        }
+
+        .pxw900 {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .prcw100 {
+            min-width: 100%;
         }
 
         .why-jg-header, .product-related-header {
@@ -166,8 +174,12 @@
         .mt30{
             margin-top: 30px;
         }
+
+        .pt30{
+            padding-top:30px;
+        }
     </style>
-    <section class="why-jg-block center">
+    <section class="why-jg-block center pxw900">
         <h1 class="why-jg-header">
             Why choose Jungle Gym
         </h1>
@@ -213,7 +225,7 @@
 
     <hr>
 
-    <section class="product-related-features-section center mt30">
+    <section class="product-related-features-section center mt30 pxw900">
         <h1 class="product-related-header">
             Product's name will come here
         </h1>
@@ -253,11 +265,9 @@
         </div>
 
     </section> 
-    
-    <hr>
 
-
-    <div class="features-section-hotspots mt30">
+    <section class="100vw pt30" style="background-color: #f5f5f5" >
+    <div class="features-section-hotspots mt30 pxw900">
         <h1 class="product-related-header">
             Hot spot section header
         </h1>
